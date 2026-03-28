@@ -1,0 +1,14 @@
+[project]
+name = "samsara-memory"
+version = "0.1.0"
+description = "5-layer cognitive memory for AI agents"
+license = {text = "Apache 2.0"}
+requires-python = ">=3.10"
+dependencies = ["pydantic>=2.0"]
+
+[project.optional-dependencies]
+mem0 = ["mem0ai"]
+
+[build-system]
+requires = ["setuptools>=45", "wheel"]
+build-backend = "setuptools.build_meta"
